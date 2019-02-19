@@ -91,7 +91,7 @@ void CnPoligonDlg::OnPaint()
 			ANSI_CHARSET, OUT_DEFAULT_PRECIS,
 			CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY,
 			DEFAULT_PITCH | FF_DONTCARE,
-			L"Times New Roman Cyr");
+			L"Trebuchet MS");
 		hold = (HFONT)SelectObject(dc, hNew);
 
 		dc.FillSolidRect(&rc, RGB(255, 255, 255));
